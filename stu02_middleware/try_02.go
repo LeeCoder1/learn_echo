@@ -33,6 +33,8 @@ func try02buildEcho() *echo.Echo {
 
 	//e.GET("/user/greet2", try02Check)
 
+	fmt.Println("test")
+
 	return e
 }
 
